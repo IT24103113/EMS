@@ -9,11 +9,11 @@
     <packaging>war</packaging>
 
     <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.target>19</maven.compiler.target>
-    <maven.compiler.source>19</maven.compiler.source>
-    <junit.version>5.11.0</junit.version>
-  </properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>19</maven.compiler.source>
+        <junit.version>5.11.0</junit.version>
+    </properties>
 
     <dependencies>
         <dependency>
