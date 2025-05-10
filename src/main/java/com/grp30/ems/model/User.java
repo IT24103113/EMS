@@ -1,24 +1,26 @@
 package com.grp30.ems.model;
 
 public class User {
-    private String Email;
-    private String Password;
+    private String email;
+    private String password;
     private boolean rememberMe;
 
-    //parameterized constructor
+    // Parameterized constructor
     public User(String email, String password, boolean rememberMe) {
-        this.Email = email;
-        this.Password = password;
+        this.email = email;
+        this.password = password;
         this.rememberMe = rememberMe;
     }
 
-    //getters
+    // Getters
     public String getEmail() {
-        return Email;
+        return email;
     }
+
     public String getPassword() {
-        return Password;
+        return password;
     }
+
     public boolean isRememberMe() {
         return rememberMe;
     }

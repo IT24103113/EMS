@@ -1,3 +1,0 @@
-user1@example.com,password123,true
-user2@example.com,securePass456,false
-user3@example.com,myPassword789,true
